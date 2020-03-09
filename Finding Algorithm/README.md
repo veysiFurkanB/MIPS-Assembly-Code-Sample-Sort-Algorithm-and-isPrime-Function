@@ -2,6 +2,7 @@
 
 The following Python code that finds whether each element of the input list is a prime number (if a number is prime, returns 1; otherwise, returns 0). 
 In the MIPS code, a list A (array A) of integer numbers (each integer in 4-bytes) have been stored in memory. MIPS register $s0 hold the base address of list A, register $s1 stores the length of the list A.
+
 1. 	def is_prime(x): 
 2. 		for i in range(2,x): 
 3. 			if (x%i==0): 
